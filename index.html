@@ -304,7 +304,6 @@
             margin-bottom: 1rem;
         }
 
-        .content-card p,
         .content-card ul {
             color: var(--text-secondary);
             margin-bottom: 0.8rem;
@@ -317,6 +316,15 @@
         }
 
         .content-card ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .content-card a {
+            font-size: 1.2rem;
+            color : whitesmoke;
+        }
+
+         .content-card p {
             margin-bottom: 0.5rem;
         }
 
@@ -347,6 +355,84 @@
             color: var(--text-muted);
             font-size: 0.9rem;
             font-style: italic;
+        }
+
+        /* Hero Section Détaille mods maps */
+        .hero2 {
+            text-align: center;
+            padding: 4rem 2rem;
+            border-radius: 20px;
+            margin-bottom: 4rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero2-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero2 h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero2 .subtitle {
+            font-size: 1.5rem;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .hero2 .tagline {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Feature Cards détaille mods maps */
+        .features-grid2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .feature-card2 {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 2rem;
+            transition: all 0.3s ease;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        .feature-card2:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent);
+            box-shadow: 0 10px 30px var(--shadow);
+        }
+
+        .feature-card2 h3 {
+            text-align: center;
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: var(--accent);
+        }
+
+        .feature-card2 p {
+            text-align: center;
+            color: var(--text-secondary);
+            line-height: 1.7;
         }
 
         /* Section Headers */
@@ -582,7 +668,7 @@
             background-color: #b15500;
         }
 
-        /*photo meme ligne texte*/
+        /*petite photo carte*/
         .dp {
             display: flex;
             align-items: center; /* centre verticalement */
@@ -612,7 +698,7 @@
             </div>
             <ul class="nav-menu" id="navMenu">
                 <li><a href="#accueil" class="nav-link active" data-page="accueil">Accueil</a></li>
-                <li><a href="#mods" class="nav-link" data-page="mods">Mods</a></li>
+                <li><a href="#Mods" class="nav-link" data-page="mods">Mods</a></li>
                 <li><a href="#Maps" class="nav-link" data-page="maps">Maps</a></li>            
             </ul>
             <button class="hamburger" id="hamburger">
@@ -718,7 +804,7 @@
                         <img src="image/CR990.png" >
                     </div>
                     <p><strong>Type:</strong> Moissonneuse</p>
-                    <p><strong>Option:</strong></p>
+                    <a href="#CR990" class="nav-link" data-page="cr990"><strong>Détaille</strong></a>
                     <div class="note">Merci de respecter les liens d'origine !</div>
                     <div class="bouton">Download</div>
                     <div class="credits">Crédits: Arsenic Modding</div>
@@ -730,7 +816,128 @@
                         <img src="image/6185.png" >
                     </div>
                     <p><strong>Type:</strong> Tracteur Moteur</p>
-                    <p><strong>Option:</strong></p>
+                    <a href="#6185" class="nav-link" data-page="6185"><strong>Détaille</strong></a>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton">Download</div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Mod17' class="content-card">
+                    <div class="dp"> 
+                        <h3>Axial Flow 9230</h3> 
+                        <img src="image/9230.png" >
+                    </div>
+                    <p><strong>Type:</strong> Moissonneuse</p>
+                    <a href="#9230" class="nav-link" data-page="9230"><strong>Détaille</strong></a>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton">Download</div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Mod17' class="content-card">
+                    <div class="dp"> 
+                        <h3>Massey Ferguson8700</h3> 
+                        <img src="image/8700.png" >
+                    </div>
+                    <p><strong>Type:</strong> Tracteur Moteur</p>
+                    <a href="#8700" class="nav-link" data-page="8700"><strong>Détaille</strong></a>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton">Download</div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Mod17' class="content-card">
+                    <div class="dp"> 
+                        <h3>Fendt 1165MT</h3> 
+                        <img src="image/1165.png" >
+                    </div>
+                    <p><strong>Type:</strong> Tracteur Moteur</p>
+                    <a href="#1165" class="nav-link" data-page="1165"><strong>Détaille</strong></a>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton">Download</div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Mod17' class="content-card">
+                    <div class="dp"> 
+                        <h3>Case IH maxxum 2018</h3> 
+                        <img src="image/2018.png" >
+                    </div>
+                    <p><strong>Type:</strong> Tracteur Moteur</p>
+                    <a href="#2018" class="nav-link" data-page="2018"><strong>Détaille</strong></a>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton">Download</div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Mod17' class="content-card">
+                    <div class="dp"> 
+                        <h3>Épandeur Dangreville</h3> 
+                        <img src="image/dangreville.png" >
+                    </div>
+                    <p><strong>Type:</strong> Épandeur à fumier (épandeur à hérissons verticaux, lavable, animation de la béquille.)</p>
+                    <a href="#dan" class="nav-link" data-page="dan"><strong>Détaille</strong></a>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton">Download</div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Mod17' class="content-card">
+                    <div class="dp"> 
+                        <h3>Fendt 700</h3> 
+                        <img src="image/700.png" >
+                    </div>
+                    <p><strong>Type:</strong> Tracteur Moteur</p>
+                    <a href="#700" class="nav-link" data-page="700"><strong>Détaille</strong></a>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton">Download</div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Mod17' class="content-card">
+                    <div class="dp"> 
+                        <h3>New Holland T8 Blue Power</h3> 
+                        <img src="image/blue.png" >
+                    </div>
+                    <p><strong>Type:</strong> Tracteur Moteur</p>
+                    <a href="#blue" class="nav-link" data-page="blue"><strong>Détaille</strong></a>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton">Download</div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Mod17' class="content-card">
+                    <div class="dp"> 
+                        <h3>Fastrac 8000</h3> 
+                        <img src="image/8000.png" >
+                    </div>
+                    <p><strong>Type:</strong> Tracteur Moteur</p>
+                    <a href="#8000" class="nav-link" data-page="8000"><strong>Détaille</strong></a>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton">Download</div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Mod17' class="content-card">
+                    <div class="dp"> 
+                        <h3>Berthoud FT 1001 & UF 1801</h3> 
+                        <img src="image/1801.png" >
+                    </div>
+                    <p><strong>Type:</strong> Pulvérisateur porté</p>
+                    <a href="#1801" class="nav-link" data-page="1801"><strong>Détaille</strong></a>
+                    <div class="important">PACK A DEZIPPER !!!</div>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton">Download</div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Mod17' class="content-card">
+                    <div class="dp"> 
+                        <h3>Deutz serie 9</h3> 
+                        <img src="image/9.png" >
+                    </div>
+                    <p><strong>Type:</strong> Tracteur Moteur</p>
+                    <a href="#9" class="nav-link" data-page="9"><strong>Détaille</strong></a>
                     <div class="note">Merci de respecter les liens d'origine !</div>
                     <div class="bouton">Download</div>
                     <div class="credits">Crédits: Arsenic Modding</div>
@@ -752,6 +959,372 @@
                     <div class="important">PACK A DEZIPPER !!!</div>
                     <div class="note">Merci de respecter les liens d'origine !</div>
                     <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOUS PARTIE FS 17 -->
+    <section class="page-section" id="cr990">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>New Holland CR990</h1>
+                    <img src="image/CR990.png" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs17')">
+                    <h3>Options</h3> 
+                    <p>IC</p>
+                    <p>lumière intérieur</p>
+                    <p>Ouverture porte</p>
+                    <p>Option écran</p>
+                    <p>Moteur son</p>
+                    <p>Suspension cabine</p>
+                    <p>etc.......</p>
+                    <div class="bouton">Download</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="6185">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>Deutz Fahr 6185</h1>
+                    <img src="image/6185.png" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs17')">
+                    <h3>Options</h3> 
+                    <p>6165 TTV</p>
+                    <p>6175 TTV</p>
+                    <p>6185 TTV</p>
+                    <p>Suspension de siège animée</p>
+                    <p>cabine animée</p>
+                    <p>Joystick animé</p>
+                    <p>Miroirs animés</p>
+                    <p>Balises animées</p>
+                    <p>Pédales animées (embrayage, frein et accélérateur)</p>
+                    <p>Contrôle d'IC (portes, fenêtre et plus)</p>
+                    <p>IndoorSounds</p>
+                    <p>écran illuminé</p>
+                    <p>Intérieur éclairé</p>
+                    <p>Nouveaux sons de moteur</p>
+                    <p>Configurations de roues</p>
+                    <p>ouverture Capot</p>
+                    <p>Moteur animée</p>
+                    <p>etc.......</p>
+                    <div class="bouton">Download</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="9230">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>Axial Flow 9230</h1>
+                    <img src="image/9230.png" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs17')">
+                    <h3>Options</h3> 
+                    <p>IC</p>
+                    <p>lumière intérieur</p>
+                    <p>Ouverture porte</p>
+                    <p>Option écran</p>
+                    <p>Moteur son</p>
+                    <p>Suspension cabine</p>
+                    <p>etc.......</p>
+                    <div class="bouton">Download</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="8700">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>Massey Ferguson8700</h1>
+                    <img src="image/8700.png" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs17')">
+                    <h3>Options</h3> 
+                    <p>8727</p>
+                    <p>8732</p>
+                    <p>8737</p>
+                    <p>Suspension de siège animée</p>
+                    <p>cabine animée</p>
+                    <p>Joystick animé</p>
+                    <p>Miroirs animés</p>
+                    <p>Balises animées</p>
+                    <p>Pédales animées (embrayage, frein et accélérateur)</p>
+                    <p>Contrôle d'IC (portes, fenêtre et plus)</p>
+                    <p>IndoorSounds</p>
+                    <p>écran illuminé</p>
+                    <p>Intérieur éclairé</p>
+                    <p>Nouveaux sons de moteur</p>
+                    <p>Configurations de roues</p>
+                    <p>ouverture Capot</p>
+                    <p>Moteur animée</p>
+                    <p>etc.......</p>
+                    <div class="bouton">Download</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="1165">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>Fendt 1165MT</h1>
+                    <img src="image/1165.png" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs17')">
+                    <h3>Options</h3> 
+                    <p>1149</p>
+                    <p>1154</p>
+                    <p>1159</p>
+                    <p>1165</p>
+                    <p>Suspension de siège animée</p>
+                    <p>cabine animée</p>
+                    <p>Joystick animé</p>
+                    <p>Pédales animées (embrayage, frein et accélérateur)</p>
+                    <p>Contrôle d'IC (portes, fenêtre et plus)</p>
+                    <p>IndoorSounds</p>
+                    <p>écran illuminé</p>
+                    <p>Intérieur éclairé</p>
+                    <p>Nouveaux sons de moteur</p>
+                    <p>Configurations de roues</p>
+                    <p>ouverture Capot</p>
+                    <p>Moteur animée</p>
+                    <p>etc.......</p>
+                    <div class="bouton">Download</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="2018">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>Case IH maxxum 2018</h1>
+                    <img src="image/2018.png" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs17')">
+                    <h3>Options</h3> 
+                    <p>115</p>
+                    <p>125</p>
+                    <p>135</p>
+                    <p>145</p>
+                    <p>150</p>
+                    <p>Suspension de siège animée</p>
+                    <p>cabine animée</p>
+                    <p>Joystick animé</p>
+                    <p>Miroirs animés</p>
+                    <p>Pédales animées (embrayage, frein et accélérateur)</p>
+                    <p>Contrôle d'IC (portes, fenêtre et plus)</p>
+                    <p>IndoorSounds</p>
+                    <p>écran illuminé</p>
+                    <p>Intérieur éclairé</p>
+                    <p>Nouveaux sons de moteur</p>
+                    <p>Configurations de roues</p>
+                    <p>ouverture Capot</p>
+                    <p>Moteur animée</p>
+                    <p>etc.......</p>
+                    <div class="bouton">Download</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="dan">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>Épandeur Dangreville</h1>
+                    <img src="image/dangreville.png" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs17')">
+                    <h3>Option</h3> 
+                    <p>Capacité : 17.000L</p>
+                    <p>Largeur de travail : 15m</p>
+                    <p>Puissance requise : 130Cv</p>
+                    <div class="bouton">Download</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="700">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>Fendt 700</h1>
+                    <img src="image/700.png" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs17')">
+                    <h3>Options</h3> 
+                    <p>716</p>
+                    <p>718</p>
+                    <p>720</p>
+                    <p>722</p>
+                    <p>724</p>
+                    <p>Suspension de siège animée</p>
+                    <p>cabine animée</p>
+                    <p>Joystick animé</p>
+                    <p>Miroirs animés</p>
+                    <p>Balises animées</p>
+                    <p>Pédales animées (embrayage, frein et accélérateur)</p>
+                    <p>Contrôle d'IC (portes, fenêtre et plus)</p>
+                    <p>IndoorSounds</p>
+                    <p>écran illuminé</p>
+                    <p>Intérieur éclairé</p>
+                    <p>Passagers</p>
+                    <p>Nouveaux sons de moteur</p>
+                    <p>Configurations de roues</p>
+                    <p>ouverture Capot</p>
+                    <p>Moteur animée</p>
+                    <p>etc.......</p>
+                    <div class="bouton">Download</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="blue">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>New Holland T8 Blue Power</h1>
+                    <img src="image/blue.png" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs17')">
+                    <h3>Options</h3> 
+                    <p>lavable</p>
+                    <p>ouverture porte gauche</p>
+                    <p>ouverture fenêtre arrière</p>
+                    <p>option masse</p>
+                    <p>option écran</p>
+                    <p>relevage avant</p>
+                    <p>ouverture warnings</p>
+                    <p>lumière led</p>
+                    <p>Suspension de siège animée</p>
+                    <p>cabine animée</p>
+                    <p>Joystick animé</p>
+                    <p>Miroirs animés</p>
+                    <p>Pédales animées (embrayage, frein et accélérateur)</p>
+                    <p>Intérieur éclairé</p>
+                    <p>Nouveaux sons de moteur</p>
+                    <p>etc.......</p>
+                    <div class="bouton">Download</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="8000">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>Fastrac 8000</h1>
+                    <img src="image/8000.png" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs17')">
+                    <h3>Options</h3> 
+                    <p>lavable</p>
+                    <p>IC</p>
+                    <div class="bouton">Download</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="1801">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>Berthoud FT 1001 & UF 1801</h1>
+                    <img src="image/1801.png" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs17')">
+                    <h3>Options</h3> 
+                    <p>Largeur travail : 24m</p>
+                    <p>Capacité FT 1001 : 1.125L</p>
+                    <p>Capacité UF 1801 : 1.920L</p>
+                    <div class="bouton">Download</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="9">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>Deutz serie 9</h1>
+                    <img src="image/9.png" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs17')">
+                    <h3>Options</h3> 
+                    <p>9290</p>
+                    <p>9310</p>
+                    <p>9340</p>
+                    <p>Suspension de siège animée</p>
+                    <p>cabine animée</p>
+                    <p>Joystick animé</p>
+                    <p>Miroirs animés</p>
+                    <p>Balises animées</p>
+                    <p>Pédales animées (embrayage, frein et accélérateur)</p>
+                    <p>Contrôle d'IC (portes, fenêtre et plus)</p>
+                    <p>IndoorSounds</p>
+                    <p>écran illuminé</p>
+                    <p>Intérieur éclairé</p>
+                    <p>Nouveaux sons de moteur</p>
+                    <p>Configurations de roues</p>
+                    <p>ouverture Capot</p>
+                    <p>Moteur animée</p>
+                    <p>etc.......</p>
+                    <div class="bouton">Download</div>
                 </div>
             </div>
         </div>
