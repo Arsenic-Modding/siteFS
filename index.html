@@ -357,6 +357,7 @@
             font-style: italic;
         }
 
+
         /* Hero Section Détaille mods maps */
         .hero2 {
             text-align: center;
@@ -424,7 +425,7 @@
 
         .feature-card2 h3 {
             text-align: center;
-            font-size: 3rem;
+            font-size: 2rem;
             margin-bottom: 1rem;
             color: var(--accent);
         }
@@ -433,6 +434,11 @@
             text-align: center;
             color: var(--text-secondary);
             line-height: 1.7;
+        }
+
+        .feature-card2 a {
+            font-size: 1.2rem;
+            color : whitesmoke;
         }
 
         /* Section Headers */
@@ -553,7 +559,7 @@
             transform: translateY(-3px);
         }
 
-        /* Responsive Design */
+        /* Responsive Designs */
         @media (max-width: 768px) {
             .nav-menu {
                 position: fixed;
@@ -657,17 +663,16 @@
         /*Bouton lien */
 
         .bouton {
-            background-color: whitesmoke;
-            color: black;
+            background-color: black;
             text-align: center;
             border-radius: 8px;
             cursor: pointer;
         }
 
         .bouton:hover {
-            background-color: #b15500;
+            background-color: rgb(84, 84, 84);
+            transition: background 1s;
         }
-
         /*petite photo carte*/
         .dp {
             display: flex;
@@ -726,71 +731,55 @@
     <!-- Mods -->
     <section class="page-section" id="mods">
         <div class="container">
-
-            <!-- FS 25 -->
-            <h2 class="section-header" onclick="togglePanel('Mod25')">Mods FS 25</h2>
-            <div class="content-grid">
-                <div id='Mod25' class="content-card">
-                    <h3>Pulvérisateurs Tecnoma</h3>
-                    <p><strong>Type:</strong> Pulvérisateur porté</p>
-                    <p><strong>Largeur travail:</strong> 24m</p>
-                    <p><strong>Capacité:</strong></p>
-                    <ul>
-                        <li>FT 1001: 1.125L</li>
-                        <li>UF 1801: 1.920L</li>
-                    </ul>
-                    <div class="important">PACK A DEZIPPER !!!</div>
-                    <div class="note">Merci de respecter les liens d'origine !</div>
-                    <div class="credits">Crédits: Arsenic Modding</div>
-                </div>
-            </div>
-
-            <!-- FS 22 -->
-            <h2 class="section-header" onclick="togglePanel('Mod22')">Mods FS 22</h2>
-            <div class="content-grid">
-                <div id='Mod22' class="content-card">
-                    <h3>Pulvérisateurs Tecnoma</h3>
-                    <p><strong>Type:</strong> Pulvérisateur porté</p>
-                    <p><strong>Largeur travail:</strong> 24m</p>
-                    <p><strong>Capacité:</strong></p>
-                    <ul>
-                        <li>FT 1001: 1.125L</li>
-                        <li>UF 1801: 1.920L</li>
-                    </ul>
-                    <div class="important">PACK A DEZIPPER !!!</div>
-                    <div class="note">Merci de respecter les liens d'origine !</div>
-                    <div class="credits">Crédits: Arsenic Modding</div>
-                </div>
-            </div>
         
             <!-- FS 19 -->
             <h2 class="section-header" onclick="togglePanel('Mod19')">Mods FS 19</h2>
             <div class="content-grid">
                 <div id='Mod19' class="content-card">
-                    <h3>Pulvérisateurs Tecnoma</h3>
-                    <p><strong>Type:</strong> Pulvérisateur porté</p>
-                    <p><strong>Largeur travail:</strong> 24m</p>
-                    <p><strong>Capacité:</strong></p>
-                    <ul>
-                        <li>FT 1001: 1.125L</li>
-                        <li>UF 1801: 1.920L</li>
-                    </ul>
-                    <div class="important">PACK A DEZIPPER !!!</div>
+                    <div class="dp"> 
+                        <h3>New Holland</h3> 
+                        <img src="image/New.jpg" >
+                    </div>
+                    <p><strong>Type:</strong> XXXXX</p>
+                    <a href="#new" class="nav-link" data-page="new"><strong>Détails</strong></a>
                     <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/yilbsawcgb2a/FS19_NewHolland_Arsenic_modding.zip.html">Download</a></div>
                     <div class="credits">Crédits: Arsenic Modding</div>
                 </div>
 
                  <div id='Mod19' class="content-card">
-                    <h3>Pulvérisateurs Tecnoma</h3>
-                    <p><strong>Type:</strong> Pulvérisateur porté</p>
-                    <p><strong>Largeur travail:</strong> 24m</p>
-                    <p><strong>Capacité:</strong></p>
-                    <ul>
-                        <li>FT 1001: 1.125L</li>
-                        <li>UF 1801: 1.920L</li>
-                    </ul>
-                    <div class="important">PACK A DEZIPPER !!!</div>
+                    <div class="dp"> 
+                        <h3>T8</h3> 
+                        <img src="image/T8.jpg" >
+                    </div>
+                    <p><strong>Type:</strong> XXXXX</p>
+                    <a href="#T8" class="nav-link" data-page="T8"><strong>Détails</strong></a>
                     <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/ywr84igxf4bw/FS19_T8_Arsenic_Modding.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                 <div id='Mod19' class="content-card">
+                    <div class="dp"> 
+                        <h3>Kubota</h3> 
+                        <img src="image/kubota.jpg" >
+                    </div>
+                    <p><strong>Type:</strong> XXXXX</p>
+                    <a href="#kubota" class="nav-link" data-page="kubota"><strong>Détails</strong></a>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/4iv93bkotpsb/FS19_KUBOTA_Pack.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                 <div id='Mod19' class="content-card">
+                    <div class="dp"> 
+                        <h3>Epandeur Dangreville</h3> 
+                        <img src="image/dan19.jpg" >
+                    </div>
+                    <p><strong>Type:</strong> XXXXX</p>
+                    <a href="#da" class="nav-link" data-page="da"><strong>Détails</strong></a>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/txma5m96nasl/FS19__Epandeur_Dangreville_Arsenic_Modding.zip.html">Download</a></div>
                     <div class="credits">Crédits: Arsenic Modding</div>
                 </div>
             </div>
@@ -804,9 +793,9 @@
                         <img src="image/CR990.png" >
                     </div>
                     <p><strong>Type:</strong> Moissonneuse</p>
-                    <a href="#CR990" class="nav-link" data-page="cr990"><strong>Détaille</strong></a>
+                    <a href="#CR990" class="nav-link" data-page="cr990"><strong>Détails</strong></a>
                     <div class="note">Merci de respecter les liens d'origine !</div>
-                    <div class="bouton">Download</div>
+                    <div class="bouton"><a href="https://modsbase.com/p8t5m12donzv/FS17_NewHollandCR9_90_Arsenic_modding.zip.html">Download</a></div>
                     <div class="credits">Crédits: Arsenic Modding</div>
                 </div>
 
@@ -816,9 +805,9 @@
                         <img src="image/6185.png" >
                     </div>
                     <p><strong>Type:</strong> Tracteur Moteur</p>
-                    <a href="#6185" class="nav-link" data-page="6185"><strong>Détaille</strong></a>
+                    <a href="#6185" class="nav-link" data-page="6185"><strong>Détais</strong></a>
                     <div class="note">Merci de respecter les liens d'origine !</div>
-                    <div class="bouton">Download</div>
+                    <div class="bouton"><a href="https://modsbase.com/tpeb5dnka5w6/FS17_deutzFahr6185modifierarsenic.zip.html">Download</a></div>
                     <div class="credits">Crédits: Arsenic Modding</div>
                 </div>
 
@@ -828,9 +817,9 @@
                         <img src="image/9230.png" >
                     </div>
                     <p><strong>Type:</strong> Moissonneuse</p>
-                    <a href="#9230" class="nav-link" data-page="9230"><strong>Détaille</strong></a>
+                    <a href="#9230" class="nav-link" data-page="9230"><strong>Détails</strong></a>
                     <div class="note">Merci de respecter les liens d'origine !</div>
-                    <div class="bouton">Download</div>
+                    <div class="bouton"><a href="https://modsbase.com/y2iusfrv2l75/FS17_Axial_Flow_9230_Arsenic_Modding.zip.html">Download</a></div>
                     <div class="credits">Crédits: Arsenic Modding</div>
                 </div>
 
@@ -840,9 +829,9 @@
                         <img src="image/8700.png" >
                     </div>
                     <p><strong>Type:</strong> Tracteur Moteur</p>
-                    <a href="#8700" class="nav-link" data-page="8700"><strong>Détaille</strong></a>
+                    <a href="#8700" class="nav-link" data-page="8700"><strong>Détails</strong></a>
                     <div class="note">Merci de respecter les liens d'origine !</div>
-                    <div class="bouton">Download</div>
+                    <div class="bouton"><a href="https://modsbase.com/328unxpyy0tp/FS17_masseyFerguson8700_Arsenic_Modding.zip.html">Download</a></div>
                     <div class="credits">Crédits: Arsenic Modding</div>
                 </div>
 
@@ -852,9 +841,9 @@
                         <img src="image/1165.png" >
                     </div>
                     <p><strong>Type:</strong> Tracteur Moteur</p>
-                    <a href="#1165" class="nav-link" data-page="1165"><strong>Détaille</strong></a>
+                    <a href="#1165" class="nav-link" data-page="1165"><strong>Détails</strong></a>
                     <div class="note">Merci de respecter les liens d'origine !</div>
-                    <div class="bouton">Download</div>
+                    <div class="bouton"><a href="https://modsbase.com/s54rp8bqa69w/FS17_Fendt1165MT_Arsenic_Modding.zip.html">Download</a></div>
                     <div class="credits">Crédits: Arsenic Modding</div>
                 </div>
 
@@ -864,9 +853,9 @@
                         <img src="image/2018.png" >
                     </div>
                     <p><strong>Type:</strong> Tracteur Moteur</p>
-                    <a href="#2018" class="nav-link" data-page="2018"><strong>Détaille</strong></a>
+                    <a href="#2018" class="nav-link" data-page="2018"><strong>Détails</strong></a>
                     <div class="note">Merci de respecter les liens d'origine !</div>
-                    <div class="bouton">Download</div>
+                    <div class="bouton"><a href="https://modsbase.com/wdfydqgifv5v/FS17_CaseIHmaxxum_Arsenic_modding.zip.html">Download</a></div>
                     <div class="credits">Crédits: Arsenic Modding</div>
                 </div>
 
@@ -876,9 +865,9 @@
                         <img src="image/dangreville.png" >
                     </div>
                     <p><strong>Type:</strong> Épandeur à fumier (épandeur à hérissons verticaux, lavable, animation de la béquille.)</p>
-                    <a href="#dan" class="nav-link" data-page="dan"><strong>Détaille</strong></a>
+                    <a href="#dan" class="nav-link" data-page="dan"><strong>Détails</strong></a>
                     <div class="note">Merci de respecter les liens d'origine !</div>
-                    <div class="bouton">Download</div>
+                    <div class="bouton"><a href="https://modsbase.com/7m5hj7j2zc75/FS17__Epandeur_Dangreville.zip.html">Download</a></div>
                     <div class="credits">Crédits: Arsenic Modding</div>
                 </div>
 
@@ -888,9 +877,9 @@
                         <img src="image/700.png" >
                     </div>
                     <p><strong>Type:</strong> Tracteur Moteur</p>
-                    <a href="#700" class="nav-link" data-page="700"><strong>Détaille</strong></a>
+                    <a href="#700" class="nav-link" data-page="700"><strong>Détails</strong></a>
                     <div class="note">Merci de respecter les liens d'origine !</div>
-                    <div class="bouton">Download</div>
+                    <div class="bouton"><a href="https://modsbase.com/wv5j8mz0xtpm/FS17_Fendt700_Arsenic_Modding.zip.html">Download</a></div>
                     <div class="credits">Crédits: Arsenic Modding</div>
                 </div>
 
@@ -900,9 +889,9 @@
                         <img src="image/blue.png" >
                     </div>
                     <p><strong>Type:</strong> Tracteur Moteur</p>
-                    <a href="#blue" class="nav-link" data-page="blue"><strong>Détaille</strong></a>
+                    <a href="#blue" class="nav-link" data-page="blue"><strong>Détails</strong></a>
                     <div class="note">Merci de respecter les liens d'origine !</div>
-                    <div class="bouton">Download</div>
+                    <div class="bouton"><a href="https://modsbase.com/owkv6xmedamr/New_Holland_T8_Blue_edition_Arsenic_Modding.zip.html">Download</a></div>
                     <div class="credits">Crédits: Arsenic Modding</div>
                 </div>
 
@@ -912,9 +901,9 @@
                         <img src="image/8000.png" >
                     </div>
                     <p><strong>Type:</strong> Tracteur Moteur</p>
-                    <a href="#8000" class="nav-link" data-page="8000"><strong>Détaille</strong></a>
+                    <a href="#8000" class="nav-link" data-page="8000"><strong>Détails</strong></a>
                     <div class="note">Merci de respecter les liens d'origine !</div>
-                    <div class="bouton">Download</div>
+                    <div class="bouton"><a href="https://modsbase.com/xh06y7u14rfk/Fastrac_8000ArsenicModding.zip.html">Download</a></div>
                     <div class="credits">Crédits: Arsenic Modding</div>
                 </div>
 
@@ -924,10 +913,10 @@
                         <img src="image/1801.png" >
                     </div>
                     <p><strong>Type:</strong> Pulvérisateur porté</p>
-                    <a href="#1801" class="nav-link" data-page="1801"><strong>Détaille</strong></a>
+                    <a href="#1801" class="nav-link" data-page="1801"><strong>Détails</strong></a>
                     <div class="important">PACK A DEZIPPER !!!</div>
                     <div class="note">Merci de respecter les liens d'origine !</div>
-                    <div class="bouton">Download</div>
+                    <div class="bouton"><a href="https://modsbase.com/ke6yb7c0wah3/FS17_PulveBerthoud_ArsenicModding.zip.html">Download</a></div>
                     <div class="credits">Crédits: Arsenic Modding</div>
                 </div>
 
@@ -937,9 +926,45 @@
                         <img src="image/9.png" >
                     </div>
                     <p><strong>Type:</strong> Tracteur Moteur</p>
-                    <a href="#9" class="nav-link" data-page="9"><strong>Détaille</strong></a>
+                    <a href="#9" class="nav-link" data-page="9"><strong>Détails</strong></a>
                     <div class="note">Merci de respecter les liens d'origine !</div>
-                    <div class="bouton">Download</div>
+                    <div class="bouton"><a href="https://modsbase.com/ydm6ipspr1ys/F17_DeutzFahr9_Arsenic_modding.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Mod17' class="content-card">
+                    <div class="dp"> 
+                        <h3>Fendt 900MT</h3> 
+                        <img src="image/900mt.jpg" >
+                    </div>
+                    <p><strong>Type:</strong> XXXXX</p>
+                    <a href="#900mt" class="nav-link" data-page="900mt"><strong>Détails</strong></a>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/9pn7cygohrk2/FS17_Fendt900MT_Arsenic_Modding.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+                
+                <div id='Mod17' class="content-card">
+                    <div class="dp"> 
+                        <h3>Dangreville Pack</h3> 
+                        <img src="image/danp.jpg" >
+                    </div>
+                    <p><strong>Type:</strong> XXXXX</p>
+                    <a href="#danp" class="nav-link" data-page="danp"><strong>Détails</strong></a>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/c2bv2b0wxn2m/Dangreville_Pack.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Mod17' class="content-card">
+                    <div class="dp"> 
+                        <h3>Massey 9407</h3> 
+                        <img src="image/ferguson.jpg" >
+                    </div>
+                    <p><strong>Type:</strong> XXXXX</p>
+                    <a href="#9407" class="nav-link" data-page="9407"><strong>Détails</strong></a>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/2f4luzj7rjil/FS17_massey9407.zip.html">Download</a></div>
                     <div class="credits">Crédits: Arsenic Modding</div>
                 </div>
             </div>
@@ -948,16 +973,134 @@
             <h2 class="section-header" onclick="togglePanel('Mod15')">Mods FS 15</h2>
             <div class="content-grid">
                 <div id='Mod15' class="content-card">
-                    <h3>Pulvérisateurs Tecnoma</h3>
-                    <p><strong>Type:</strong> Pulvérisateur porté</p>
-                    <p><strong>Largeur travail:</strong> 24m</p>
-                    <p><strong>Capacité:</strong></p>
-                    <ul>
-                        <li>FT 1001: 1.125L</li>
-                        <li>UF 1801: 1.920L</li>
-                    </ul>
-                    <div class="important">PACK A DEZIPPER !!!</div>
+                    <div class="dp"> 
+                        <h3>Massey 7480</h3> 
+                        <img src="image/7480.png" >
+                    </div>
+                    <p><strong>Type:</strong> XXXXX</p>
+                    <a href="#7480" class="nav-link" data-page="7480"><strong>Détails</strong></a>
                     <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/raz1gqjvfhho/Massey7480_Arsenic.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Mod15' class="content-card">
+                    <div class="dp"> 
+                        <h3>John Deere 8520</h3> 
+                        <img src="image/8520.jpg" >
+                    </div>
+                    <p><strong>Type:</strong> XXXXX</p>
+                    <a href="#8520" class="nav-link" data-page="8520"><strong>Détails</strong></a>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/e0fev6gnxoq0/JohnDeere8520.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Mod15' class="content-card">
+                    <div class="dp"> 
+                        <h3>New Holland t6160 V1</h3> 
+                        <img src="image/6160.jpg" >
+                    </div>
+                    <p><strong>Type:</strong> XXXXX</p>
+                    <a href="#6160" class="nav-link" data-page="6160"><strong>Détails</strong></a>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/f9eeceoa68vk/NH_t6160_V1_Arsenic_Modding.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Mod15' class="content-card">
+                    <div class="dp"> 
+                        <h3>Zetor Forterra 150HD V1</h3> 
+                        <img src="image/150.png" >
+                    </div>
+                    <p><strong>Type:</strong> XXXXX</p>
+                    <a href="#150" class="nav-link" data-page="150"><strong>Détails</strong></a>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/ujln2llw2a94/Zetor_forterra_150HD_V1_Arsenic_Modding.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Mod15' class="content-card">
+                    <div class="dp"> 
+                        <h3>Same Fortis 190 V1</h3> 
+                        <img src="image/190.jpg" >
+                    </div>
+                    <p><strong>Type:</strong> XXXXX</p>
+                    <a href="#190" class="nav-link" data-page="190"><strong>Détails</strong></a>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/6dfd56jybtuz/sameFortis190_v1_Arsenic_Modding.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Mod15' class="content-card">
+                    <div class="dp"> 
+                        <h3>New Holland CR990</h3> 
+                        <img src="image/990.png" >
+                    </div>
+                    <p><strong>Type:</strong> XXXXX</p>
+                    <a href="#990" class="nav-link" data-page="990"><strong>Détails</strong></a>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/0c8eyme90tl7/FS_15_NH_CR990_Arsenic_Modding.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Mod15' class="content-card">
+                    <div class="dp"> 
+                        <h3>Versatile SX240</h3> 
+                        <img src="image/SX240.jpg" >
+                    </div>
+                    <p><strong>Type:</strong> XXXXX</p>
+                    <a href="SX240" class="nav-link" data-page="SX240"><strong>Détails</strong></a>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/pumchmw19sbk/versatileSX240.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Mod15' class="content-card">
+                    <div class="dp"> 
+                        <h3>Claas 640</h3> 
+                        <img src="image/640.jpg" >
+                    </div>
+                    <p><strong>Type:</strong> XXXXX</p>
+                    <a href="S640" class="nav-link" data-page="S640"><strong>Détails</strong></a>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/owonexqtqyz3/claas640_pack.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Mod15' class="content-card">
+                    <div class="dp"> 
+                        <h3>FS15_Pulve Berthoud Porte</h3> 
+                        <img src="image/Ber.jpg" >
+                    </div>
+                    <p><strong>Type:</strong> XXXXX</p>
+                    <a href="Ber" class="nav-link" data-page="Ber"><strong>Détails</strong></a>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/tsuhyszujfxs/FS15_PulveBerthoudPorte.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Mod15' class="content-card">
+                    <div class="dp"> 
+                        <h3>Gregoire Besson RW9</h3> 
+                        <img src="image/gregoire.jpeg" >
+                    </div>
+                    <p><strong>Type:</strong> XXXXX</p>
+                    <a href="gregoire" class="nav-link" data-page="gregoire"><strong>Détails</strong></a>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/waybkvqoyulo/Gregoire_Besson_RW9.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Mod15' class="content-card">
+                    <div class="dp"> 
+                        <h3>Claas Jaguar 685</h3> 
+                        <img src="image/Jaguar685.jpg" >
+                    </div>
+                    <p><strong>Type:</strong> XXXXX</p>
+                    <a href="J685" class="nav-link" data-page="J685"><strong>Détails</strong></a>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/hiogexynp4id/Claas_Jaguar_685.zip.html">Download</a></div>
                     <div class="credits">Crédits: Arsenic Modding</div>
                 </div>
             </div>
@@ -978,13 +1121,13 @@
                 <div class="feature-card2" onclick="navigateToPage('fs17')">
                     <h3>Options</h3> 
                     <p>IC</p>
-                    <p>lumière intérieur</p>
+                    <p>Lumière intérieur</p>
                     <p>Ouverture porte</p>
                     <p>Option écran</p>
                     <p>Moteur son</p>
                     <p>Suspension cabine</p>
                     <p>etc.......</p>
-                    <div class="bouton">Download</div>
+                    <div class="bouton"><a href="https://modsbase.com/p8t5m12donzv/FS17_NewHollandCR9_90_Arsenic_modding.zip.html">Download</a></div>
                 </div>
             </div>
         </div>
@@ -1006,21 +1149,21 @@
                     <p>6175 TTV</p>
                     <p>6185 TTV</p>
                     <p>Suspension de siège animée</p>
-                    <p>cabine animée</p>
+                    <p>Cabine animée</p>
                     <p>Joystick animé</p>
                     <p>Miroirs animés</p>
                     <p>Balises animées</p>
                     <p>Pédales animées (embrayage, frein et accélérateur)</p>
                     <p>Contrôle d'IC (portes, fenêtre et plus)</p>
                     <p>IndoorSounds</p>
-                    <p>écran illuminé</p>
+                    <p>Ecran illuminé</p>
                     <p>Intérieur éclairé</p>
                     <p>Nouveaux sons de moteur</p>
                     <p>Configurations de roues</p>
-                    <p>ouverture Capot</p>
+                    <p>Ouverture Capot</p>
                     <p>Moteur animée</p>
                     <p>etc.......</p>
-                    <div class="bouton">Download</div>
+                    <div class="bouton"><a href="https://modsbase.com/tpeb5dnka5w6/FS17_deutzFahr6185modifierarsenic.zip.html">Download</a></div>
                 </div>
             </div>
         </div>
@@ -1039,13 +1182,13 @@
                 <div class="feature-card2" onclick="navigateToPage('fs17')">
                     <h3>Options</h3> 
                     <p>IC</p>
-                    <p>lumière intérieur</p>
+                    <p>Lumière intérieur</p>
                     <p>Ouverture porte</p>
                     <p>Option écran</p>
                     <p>Moteur son</p>
                     <p>Suspension cabine</p>
                     <p>etc.......</p>
-                    <div class="bouton">Download</div>
+                    <div class="bouton"><a href="https://modsbase.com/y2iusfrv2l75/FS17_Axial_Flow_9230_Arsenic_Modding.zip.html">Download</a></div>
                 </div>
             </div>
         </div>
@@ -1067,21 +1210,21 @@
                     <p>8732</p>
                     <p>8737</p>
                     <p>Suspension de siège animée</p>
-                    <p>cabine animée</p>
+                    <p>Cabine animée</p>
                     <p>Joystick animé</p>
                     <p>Miroirs animés</p>
                     <p>Balises animées</p>
                     <p>Pédales animées (embrayage, frein et accélérateur)</p>
                     <p>Contrôle d'IC (portes, fenêtre et plus)</p>
                     <p>IndoorSounds</p>
-                    <p>écran illuminé</p>
+                    <p>Ecran illuminé</p>
                     <p>Intérieur éclairé</p>
                     <p>Nouveaux sons de moteur</p>
                     <p>Configurations de roues</p>
-                    <p>ouverture Capot</p>
+                    <p>Ouverture Capot</p>
                     <p>Moteur animée</p>
                     <p>etc.......</p>
-                    <div class="bouton">Download</div>
+                    <div class="bouton"><a href="https://modsbase.com/328unxpyy0tp/FS17_masseyFerguson8700_Arsenic_Modding.zip.html">Download</a></div>
                 </div>
             </div>
         </div>
@@ -1104,19 +1247,19 @@
                     <p>1159</p>
                     <p>1165</p>
                     <p>Suspension de siège animée</p>
-                    <p>cabine animée</p>
+                    <p>Cabine animée</p>
                     <p>Joystick animé</p>
                     <p>Pédales animées (embrayage, frein et accélérateur)</p>
                     <p>Contrôle d'IC (portes, fenêtre et plus)</p>
                     <p>IndoorSounds</p>
-                    <p>écran illuminé</p>
+                    <p>Ecran illuminé</p>
                     <p>Intérieur éclairé</p>
                     <p>Nouveaux sons de moteur</p>
                     <p>Configurations de roues</p>
-                    <p>ouverture Capot</p>
+                    <p>Ouverture Capot</p>
                     <p>Moteur animée</p>
                     <p>etc.......</p>
-                    <div class="bouton">Download</div>
+                    <div class="bouton"><a href="https://modsbase.com/s54rp8bqa69w/FS17_Fendt1165MT_Arsenic_Modding.zip.html">Download</a></div>
                 </div>
             </div>
         </div>
@@ -1140,20 +1283,20 @@
                     <p>145</p>
                     <p>150</p>
                     <p>Suspension de siège animée</p>
-                    <p>cabine animée</p>
+                    <p>Cabine animée</p>
                     <p>Joystick animé</p>
                     <p>Miroirs animés</p>
                     <p>Pédales animées (embrayage, frein et accélérateur)</p>
                     <p>Contrôle d'IC (portes, fenêtre et plus)</p>
                     <p>IndoorSounds</p>
-                    <p>écran illuminé</p>
+                    <p>Ecran illuminé</p>
                     <p>Intérieur éclairé</p>
                     <p>Nouveaux sons de moteur</p>
                     <p>Configurations de roues</p>
-                    <p>ouverture Capot</p>
+                    <p>Ouverture Capot</p>
                     <p>Moteur animée</p>
                     <p>etc.......</p>
-                    <div class="bouton">Download</div>
+                    <div class="bouton"><a href="https://modsbase.com/wdfydqgifv5v/FS17_CaseIHmaxxum_Arsenic_modding.zip.html">Download</a></div>
                 </div>
             </div>
         </div>
@@ -1174,7 +1317,7 @@
                     <p>Capacité : 17.000L</p>
                     <p>Largeur de travail : 15m</p>
                     <p>Puissance requise : 130Cv</p>
-                    <div class="bouton">Download</div>
+                    <div class="bouton"><a href="https://modsbase.com/7m5hj7j2zc75/FS17__Epandeur_Dangreville.zip.html">Download</a></div>
                 </div>
             </div>
         </div>
@@ -1198,22 +1341,22 @@
                     <p>722</p>
                     <p>724</p>
                     <p>Suspension de siège animée</p>
-                    <p>cabine animée</p>
+                    <p>Cabine animée</p>
                     <p>Joystick animé</p>
                     <p>Miroirs animés</p>
                     <p>Balises animées</p>
                     <p>Pédales animées (embrayage, frein et accélérateur)</p>
                     <p>Contrôle d'IC (portes, fenêtre et plus)</p>
                     <p>IndoorSounds</p>
-                    <p>écran illuminé</p>
+                    <p>Ecran illuminé</p>
                     <p>Intérieur éclairé</p>
                     <p>Passagers</p>
                     <p>Nouveaux sons de moteur</p>
                     <p>Configurations de roues</p>
-                    <p>ouverture Capot</p>
+                    <p>Ouverture Capot</p>
                     <p>Moteur animée</p>
                     <p>etc.......</p>
-                    <div class="bouton">Download</div>
+                    <div class="bouton"><a href="https://modsbase.com/wv5j8mz0xtpm/FS17_Fendt700_Arsenic_Modding.zip.html">Download</a></div>
                 </div>
             </div>
         </div>
@@ -1231,23 +1374,23 @@
             <div class="features-grid2">
                 <div class="feature-card2" onclick="navigateToPage('fs17')">
                     <h3>Options</h3> 
-                    <p>lavable</p>
-                    <p>ouverture porte gauche</p>
-                    <p>ouverture fenêtre arrière</p>
-                    <p>option masse</p>
-                    <p>option écran</p>
-                    <p>relevage avant</p>
-                    <p>ouverture warnings</p>
-                    <p>lumière led</p>
+                    <p>Lavable</p>
+                    <p>Ouverture porte gauche</p>
+                    <p>Ouverture fenêtre arrière</p>
+                    <p>Option masse</p>
+                    <p>Option écran</p>
+                    <p>Relevage avant</p>
+                    <p>Ouverture warnings</p>
+                    <p>Lumière led</p>
                     <p>Suspension de siège animée</p>
-                    <p>cabine animée</p>
+                    <p>Cabine animée</p>
                     <p>Joystick animé</p>
                     <p>Miroirs animés</p>
                     <p>Pédales animées (embrayage, frein et accélérateur)</p>
                     <p>Intérieur éclairé</p>
                     <p>Nouveaux sons de moteur</p>
                     <p>etc.......</p>
-                    <div class="bouton">Download</div>
+                    <div class="bouton"><a href="https://modsbase.com/owkv6xmedamr/New_Holland_T8_Blue_edition_Arsenic_Modding.zip.html">Download</a></div>
                 </div>
             </div>
         </div>
@@ -1265,9 +1408,9 @@
             <div class="features-grid2">
                 <div class="feature-card2" onclick="navigateToPage('fs17')">
                     <h3>Options</h3> 
-                    <p>lavable</p>
+                    <p>Lavable</p>
                     <p>IC</p>
-                    <div class="bouton">Download</div>
+                    <div class="bouton"><a href="https://modsbase.com/xh06y7u14rfk/Fastrac_8000ArsenicModding.zip.html">Download</a></div>
                 </div>
             </div>
         </div>
@@ -1288,7 +1431,7 @@
                     <p>Largeur travail : 24m</p>
                     <p>Capacité FT 1001 : 1.125L</p>
                     <p>Capacité UF 1801 : 1.920L</p>
-                    <div class="bouton">Download</div>
+                    <div class="bouton"><a href="https://modsbase.com/ke6yb7c0wah3/FS17_PulveBerthoud_ArsenicModding.zip.html">Download</a></div>
                 </div>
             </div>
         </div>
@@ -1310,21 +1453,386 @@
                     <p>9310</p>
                     <p>9340</p>
                     <p>Suspension de siège animée</p>
-                    <p>cabine animée</p>
+                    <p>Cabine animée</p>
                     <p>Joystick animé</p>
                     <p>Miroirs animés</p>
                     <p>Balises animées</p>
                     <p>Pédales animées (embrayage, frein et accélérateur)</p>
                     <p>Contrôle d'IC (portes, fenêtre et plus)</p>
                     <p>IndoorSounds</p>
-                    <p>écran illuminé</p>
+                    <p>Ecran illuminé</p>
                     <p>Intérieur éclairé</p>
                     <p>Nouveaux sons de moteur</p>
                     <p>Configurations de roues</p>
-                    <p>ouverture Capot</p>
+                    <p>Ouverture Capot</p>
                     <p>Moteur animée</p>
                     <p>etc.......</p>
-                    <div class="bouton">Download</div>
+                    <div class="bouton"><a href="https://modsbase.com/ydm6ipspr1ys/F17_DeutzFahr9_Arsenic_modding.zip.html">Download</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="900mt">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>Fendt 900MT</h1>
+                    <img src="image/900mt.jpg" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs17')">
+                    <h3>Options</h3> 
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <div class="bouton"><a href="https://modsbase.com/9pn7cygohrk2/FS17_Fendt900MT_Arsenic_Modding.zip.html">Download</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="danp">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>Dangreville Pack</h1>
+                    <img src="image/danp.jpg" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs17')">
+                    <h3>Options</h3> 
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <div class="bouton"><a href="https://modsbase.com/c2bv2b0wxn2m/Dangreville_Pack.zip.html">Download</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="9407">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>Massey 9407</h1>
+                    <img src="image/ferguson.jpg" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs17')">
+                    <h3>Options</h3> 
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <div class="bouton"><a href="https://modsbase.com/2f4luzj7rjil/FS17_massey9407.zip.html">Download</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- SOUS PARTIE FS 19 -->
+    <section class="page-section" id="new">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>New Holland</h1>
+                    <img src="image/New.jpg" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs19')">
+                    <h3></h3> 
+                    <p></p>
+                    <p></p>
+                    <div class="bouton"><a href="https://modsbase.com/yilbsawcgb2a/FS19_NewHolland_Arsenic_modding.zip.html">Download</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="T8">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>T8</h1>
+                    <img src="image/T8.jpg" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs19')">
+                    <h3></h3> 
+                    <p></p>
+                    <p></p>
+                    <div class="bouton"><a href="https://modsbase.com/ywr84igxf4bw/FS19_T8_Arsenic_Modding.zip.html">Download</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="kubota">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>Kubota</h1>
+                    <img src="image/kubota.jpg" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs19')">
+                    <h3></h3> 
+                    <p></p>
+                    <p></p>
+                    <div class="bouton"><a href="https://modsbase.com/4iv93bkotpsb/FS19_KUBOTA_Pack.zip.html">Download</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="da">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>Epandeur Dangreville</h1>
+                    <img src="image/dan19.jpg" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs19')">
+                    <h3></h3> 
+                    <p></p>
+                    <p></p>
+                    <div class="bouton"><a href="https://modsbase.com/txma5m96nasl/FS19__Epandeur_Dangreville_Arsenic_Modding.zip.html">Download</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- SOUS PARTIE FS 15 -->
+    <section class="page-section" id="7480">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>Massey 7480</h1>
+                    <img src="image/7480.png" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs15')">
+                    <h3></h3> 
+                    <p></p>
+                    <p></p>
+                    <div class="bouton"><a href="https://modsbase.com/raz1gqjvfhho/Massey7480_Arsenic.zip.html">Download</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="8520">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>John Deere 8520</h1>
+                    <img src="image/8520.jpg" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs15')">
+                    <h3></h3> 
+                    <p></p>
+                    <p></p>
+                    <div class="bouton"><a href="https://modsbase.com/e0fev6gnxoq0/JohnDeere8520.zip.html">Download</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="6160">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>New Holland t6160 V1</h1>
+                    <img src="image/6160.jpg" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs15')">
+                    <h3></h3> 
+                    <p></p>
+                    <p></p>
+                    <div class="bouton"><a href="https://modsbase.com/f9eeceoa68vk/NH_t6160_V1_Arsenic_Modding.zip.html">Download</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="150">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>Zetor Forterra 150HD</h1>
+                    <img src="image/150.png" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs15')">
+                    <h3></h3> 
+                    <p></p>
+                    <p></p>
+                    <div class="bouton"><a href="https://modsbase.com/ujln2llw2a94/Zetor_forterra_150HD_V1_Arsenic_Modding.zip.html">Download</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="190">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>Same Fortis 190</h1>
+                    <img src="image/190.jpg" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs15')">
+                    <h3></h3> 
+                    <p></p>
+                    <p></p>
+                    <div class="bouton"><a href="https://modsbase.com/6dfd56jybtuz/sameFortis190_v1_Arsenic_Modding.zip.html">Download</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="990">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>New Holland CR990</h1>
+                    <img src="image/990.png" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs15')">
+                    <h3></h3> 
+                    <p></p>
+                    <p></p>
+                    <div class="bouton"><a href="https://modsbase.com/0c8eyme90tl7/FS_15_NH_CR990_Arsenic_Modding.zip.html">Download</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="SX240">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>Versatile SX240</h1>
+                    <img src="image/SX240.jpg" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs15')">
+                    <h3></h3> 
+                    <p></p>
+                    <p></p>
+                    <div class="bouton"><a href="https://modsbase.com/pumchmw19sbk/versatileSX240.zip.html">Download</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="S640">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>Claas 640</h1>
+                    <img src="image/640.jpg" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs15')">
+                    <h3></h3> 
+                    <p></p>
+                    <p></p>
+                    <div class="bouton"><a href="https://modsbase.com/owonexqtqyz3/claas640_pack.zip.html">Download</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="Ber">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>Pulve Berthoud Porte</h1>
+                    <img src="image/Ber.jpg" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs15')">
+                    <h3></h3> 
+                    <p></p>
+                    <p></p>
+                    <div class="bouton"><a href="https://modsbase.com/tsuhyszujfxs/FS15_PulveBerthoudPorte.zip.html">Download</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="gregoire">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>Gregoire Besson RW9</h1>
+                    <img src="image/gregoire.jpeg" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs15')">
+                    <h3></h3> 
+                    <p></p>
+                    <p></p>
+                    <div class="bouton"><a href="https://modsbase.com/waybkvqoyulo/Gregoire_Besson_RW9.zip.html">Download</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="J685">
+        <div class="container">
+            <div class="hero2">
+                <div class="hero2-content">
+                    <h1>Claas Jaguar 685</h1>
+                    <img src="image/Jaguar685.jpg" >
+                </div>
+            </div>
+
+            <div class="features-grid2">
+                <div class="feature-card2" onclick="navigateToPage('fs15')">
+                    <h3></h3> 
+                    <p></p>
+                    <p></p>
+                    <div class="bouton"><a href="https://modsbase.com/hiogexynp4id/Claas_Jaguar_685.zip.html">Download</a></div>
                 </div>
             </div>
         </div>
@@ -1334,39 +1842,238 @@
     <section class="page-section" id="maps">
         <div class="container">
 
+            <!-- FS 22 -->
+            <h2 class="section-header" onclick="togglePanel('Map22')">Maps FS 22</h2>
+            <div class="content-grid">
+                <div id='Map22' class="content-card">
+                    <div class="dp"> 
+                        <h3>Les Grandes Chaumes</h3> 
+                        <img src="image/les-grandes-chaumes.jpg" >
+                    </div>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/qbcnobgkzfwq/FS22_Les_grandes_chaumes_Pack.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+            </div>
+            
+            <!-- FS 19 -->
+            <h2 class="section-header" onclick="togglePanel('Map19')">Maps FS 19</h2>
+            <div class="content-grid">
+                <div id='Map19' class="content-card">
+                    <div class="dp"> 
+                        <h3>La Folie Pack</h3> 
+                        <img src="image/La Folie Pack.jpg" >
+                    </div>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/mrrmq8dsaulw/FS19_La_Folie_Pack.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Map19' class="content-card">
+                    <div class="dp"> 
+                        <h3>Les Grandes Chaumes</h3> 
+                        <img src="image/LES GRANDES CHAUMES.jpg" >
+                    </div>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/gfs7h5jk8xdu/LES_GRANDES_CHAUMES.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Map19' class="content-card">
+                    <div class="dp"> 
+                        <h3>American Farmers</h3> 
+                        <img src="image/AmericanFarmers.jpg" >
+                    </div>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/qayuyemyorl5/FS19_American_Farmers_Pack.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Map19' class="content-card">
+                    <div class="dp"> 
+                        <h3>The Little Stream</h3> 
+                        <img src="image/The_Little_Stream.jpg" >
+                    </div>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/6kjsnjugcs3k/FS19_The_Little_Stream.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Map19' class="content-card">
+                    <div class="dp"> 
+                        <h3>KansasCity</h3> 
+                        <img src="image/KansasCity.jpg" >
+                    </div>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/055j9h0vswa6/FS19_KansasCity_Pack.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Map19' class="content-card">
+                    <div class="dp"> 
+                        <h3>Le Petit Bourg</h3> 
+                        <img src="image/Le Petit Bourg.jpg" >
+                    </div>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/olt5cgzyoets/FS19_LePetitBourg.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Map19' class="content-card">
+                    <div class="dp"> 
+                        <h3>Vieille France</h3> 
+                        <img src="image/Vieille_France.jpg" >
+                    </div>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/v9wf1vt6x6bc/Pack_FS19Vieille_France.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+            </div>
+
             <!-- FS 17 -->
             <h2 class="section-header" onclick="togglePanel('Map17')">Maps FS 17</h2>
             <div class="content-grid">
                 <div id='Map17' class="content-card">
-                    <h3>Pulvérisateurs Tecnoma</h3>
-                    <p><strong>Type:</strong> Pulvérisateur porté</p>
-                    <p><strong>Largeur travail:</strong> 24m</p>
-                    <p><strong>Capacité:</strong></p>
-                    <ul>
-                        <li>FT 1001: 1.125L</li>
-                        <li>UF 1801: 1.920L</li>
-                    </ul>
-                    <div class="important">PACK A DEZIPPER !!!</div>
+                    <div class="dp"> 
+                        <h3>Valley</h3> 
+                        <img src="image/Valley-Benoit-v1.0.jpg" >
+                    </div>
                     <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/y1r39ta0w2qh/Valley_by_Arsenic.zip.html">Download</a></div>
                     <div class="credits">Crédits: Arsenic Modding</div>
                 </div>
 
+                <div id='Map17' class="content-card">
+                    <div class="dp"> 
+                        <h3>The Little Stream</h3> 
+                        <img src="image/the-little-stream-v21-fs17-hZYbi.jpg" >
+                    </div>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/81d5u7i36ttf/F17_the_little_streamv3.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Map17' class="content-card">
+                    <div class="dp"> 
+                        <h3>Cotswolds</h3> 
+                        <img src="image/cotswolds-map-fs17-QM40T.jpg" >
+                    </div>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/gvhk8ekdfgy9/FS17_Cotswolds_pack.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Map17' class="content-card">
+                    <div class="dp"> 
+                        <h3>Savoie</h3> 
+                        <img src="image/Savoie.jpg" >
+                    </div>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/qz5m22c5napv/Savoie_FS17_Pack.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Map17' class="content-card">
+                    <div class="dp"> 
+                        <h3>Vieille France</h3> 
+                        <img src="image/Vieille_France FS17.jpg" >
+                    </div>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/l11eh3vjon3x/Vieille_France_V3_pack.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Map17' class="content-card">
+                    <div class="dp"> 
+                        <h3>The Sample</h3> 
+                        <img src="image/sample_mod_map.jpg" >
+                    </div>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/7zpwyey3kq7y/the_sample_mod_map_Arsenic_Modding.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Map17' class="content-card">
+                    <div class="dp"> 
+                        <h3>Old School Farm</h3> 
+                        <img src="image/Old_School_Farm.jpg" >
+                    </div>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/dux6qvm69702/FS17_Old_School_Farm_pack.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Map17' class="content-card">
+                    <div class="dp"> 
+                        <h3>Un Petit Coin De Campagne</h3> 
+                        <img src="image/Un_petit_coin_de_campagne.jpg" >
+                    </div>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/vwi6u2bput5i/Fs17_Un_petit_coin_de_campagne_Seasons.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Map17' class="content-card">
+                    <div class="dp"> 
+                        <h3>Les Montagnards</h3> 
+                        <img src="image/LES MONTAGNARDS.jpg" >
+                    </div>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/4u9nysbl037g/Les_Montagnards_V101_DEZIPPEZ_MOI.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding & FalconVini</div>
+                </div>
+
+                <div id='Map17' class="content-card">
+                    <div class="dp"> 
+                        <h3>La Ferme Du Bocq</h3> 
+                        <img src="image/La Ferme Du Bocq.jpg" >
+                    </div>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/13n517hd9glj/FS17_LaFermeDuBocq.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding & FalconVini</div>
+                </div>
             </div>
-            
+
             <!-- FS 15 -->
             <h2 class="section-header" onclick="togglePanel('Map15')">Maps FS 15</h2>
             <div class="content-grid">
                 <div id='Map15' class="content-card">
-                    <h3>Pulvérisateurs Tecnoma</h3>
-                    <p><strong>Type:</strong> Pulvérisateur porté</p>
-                    <p><strong>Largeur travail:</strong> 24m</p>
-                    <p><strong>Capacité:</strong></p>
-                    <ul>
-                        <li>FT 1001: 1.125L</li>
-                        <li>UF 1801: 1.920L</li>
-                    </ul>
-                    <div class="important">PACK A DEZIPPER !!!</div>
+                    <div class="dp"> 
+                        <h3>Californie Multifruit</h3> 
+                        <img src="image/CALIFORNIE-MULTIFRUITS-MAP-V1-2.jpg" >
+                    </div>
                     <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/du8aedvozanu/Californie_Multifruit_V1_1_PACK.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Map15' class="content-card">
+                    <div class="dp"> 
+                        <h3>La Ferme du Pin</h3> 
+                        <img src="image/La-Ferme-du-Pin-3-617x347.jpg" >
+                    </div>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/9c22j4t7a3tx/fermedupinpack.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Map15' class="content-card">
+                    <div class="dp"> 
+                        <h3>Vosges</h3> 
+                        <img src="image/VOSGES-MAP-V6-4.jpg" >
+                    </div>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/5fodxundp8z2/vosgesv6_pack.zip.html">Download</a></div>
+                    <div class="credits">Crédits: Arsenic Modding</div>
+                </div>
+
+                <div id='Map15' class="content-card">
+                    <div class="dp"> 
+                        <h3>Vieille France</h3> 
+                        <img src="image/1483184364_screenshot0.jpg" >
+                    </div>
+                    <div class="note">Merci de respecter les liens d'origine !</div>
+                    <div class="bouton"><a href="https://modsbase.com/i6yzteawoveg/pack_vieille_france_V2.zip.html">Download</a></div>
                     <div class="credits">Crédits: Arsenic Modding</div>
                 </div>
             </div>
@@ -1382,7 +2089,7 @@
             <div class="social-links">
                 <a href="https://www.facebook.com/people/Arsenic-Modding/100064538506134/?ref=bookmarks"> <img src="image/fb.png" class="social-link" title="Facebook"></img> </a>
                 <a href="https://www.youtube.com/channel/UCl1u_LaDiU1q_-EwtGjcv1g"> <img class="social-link" title="YouTube" src="image/yt.png" ></img> </a>
-                <a href=""> <img class="social-link" title="Twitch" src="image/Tw.png" ></img> </a>
+                <a href="https://www.tiktok.com/@arsenic.modding"> <img class="social-link" title="TikTok" src="image/tt.avif" ></img> </a>
                 <a href="https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=H4X6LVRZXGA3U&ssrt=1761777484179"> <img class="social-link" title="paypal" src="image/PP.png" ></img> </a>
             </div>
         </div>
